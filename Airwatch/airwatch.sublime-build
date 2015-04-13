@@ -1,0 +1,3 @@
+{
+  "shell_cmd": "rsync -ruvz ./* --exclude='*workspace' hansolo:~/www/dev/airwatch/ "
+}

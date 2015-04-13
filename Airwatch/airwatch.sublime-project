@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/blendax/Documents/dev/airwatch/"
+		}
+	],
+    "build_systems":
+    [
+        {
+            "shell_cmd": "rsync -ruvz /Users/blendax/Documents/dev/airwatch/ --exclude='*workspace' hansolo:~/www/dev/airwatch/ --exclude='.DS_Store' --exclude='.git*'",
+            "working_dir": "${project_path}",
+            "name": "Airwatch"
+        }
+    ]
+}

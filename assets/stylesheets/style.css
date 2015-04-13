@@ -1,0 +1,16 @@
+body {
+	margin-top: 80px;
+}
+
+button#add-button {
+	margin-left: 10px;
+}
+
+#bookmark-container {
+	padding-top: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
